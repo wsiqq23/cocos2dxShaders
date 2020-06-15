@@ -234,6 +234,7 @@ const SHADERLIB_STROKE =
 /**
  * 水面波光粼粼的效果，需要用到点光源和循环移动
  * 精简版点光源的参数已经调好，使用下面的TEST_SPOTLIGHT即可
+ * 对一张高光图使用此shader，然后将高光图和背后的水面图混合模式设置为1,1
  */
 const SHADERLIB_WATER_SURFACE =
     "#ifdef GL_ES\n"
